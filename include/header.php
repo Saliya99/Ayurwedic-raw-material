@@ -5,7 +5,7 @@
 		<div class="col-sm-6">
 		<div class="contactinfo">
    <ul class="nav nav-pills">
-   <li><a href="#"><i class="fa fa-phone"></i> +94 77 8725347
+   <li><a href="#"><i class="fa fa-phone"></i> +94 77 87 25 347
    </a></li>
    <li><a href="contact.php"><i class="fa fa-envelope"></i> Help & Contact
    </a></li>
