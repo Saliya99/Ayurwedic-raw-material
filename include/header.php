@@ -43,7 +43,7 @@
 	<ul class="nav navbar-nav">
 		<li><a href="index.php"><i class="fa fa-home"></i> Home </a></li>
 
-<li><a href="add_product.php"><i class="fa fa-user"></i> Supplier</a></li>
+<li><a href="add_product.php"><i class="fa fa-user"></i>Products</a></li>
 <li><a href="cart.php"><i class="fa fa-shopping-cart"></i> Cart</a></li>
 <li><a href="https://infoayurmed.blogspot.com/"><i class="fa fa-book"></i> Blog</a></li>
 	<li><a href="hospital.php"><i class="fa fa-heartbeat"></i> Hospitals</a></li>
