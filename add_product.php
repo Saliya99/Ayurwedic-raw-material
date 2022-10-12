@@ -39,7 +39,7 @@ mysqli_close($connection);
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Supplier</title>
+<title>Products</title>
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="web_admin/style/css/bootstrap.min.css" rel="stylesheet">
 <link href="web_admin/style/css/k.css" rel="stylesheet">
