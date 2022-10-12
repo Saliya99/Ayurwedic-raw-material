@@ -1,0 +1,51 @@
+font-family: Arial;
+}
+
+* {
+box-sizing: border-box;
+}
+
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 80%;
+background: #f1f1f1;
+}
+
+form.example button {
+float: left;
+width:15%;
+height: 35px;
+padding: 5px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+form.example button:hover {
+background: #0b7dda;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+
+/* start with blog session */
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
