@@ -77,62 +77,27 @@ mysqli_close($connection);
   	    
 	<div class="panel-heading" style="background-color:#c4e17f">
 	<h2><a href="index.php">
-	<img src="images/logo.png"  style="width:50px;" alt=""></a> <b>Add Your Product Information<b> </h2>
+	<img src="images/logo.png"  style="width:50px;" alt=""></a> <b>Ayurvedic medicine is one of the world’s oldest medical systems and remains one of Sri Lanka’s traditional health care systems.<b> </h2>
 	<!--<div class="logo pull-right">-->
 	<!--	<button class="btn btn-success btn-lg" style="margin-top:-140px;width:150px; height:45px"><a href ="index.php" style=" text-decoration:none; color:white;" > <span class="glyphicon glyphicon-name"></span>Go to Home </a></button>-->
 
 	<!--</div>-->
 </div><br>
+<main class="container">
 
-	<div class="panel-body" style="background-color:#E6EEEE;">
-		<div class="col-lg-7">
-        <div class="well">
-        <form action="add_product.php" method="post" name="form" enctype="multipart/form-data">
-        <p>Title</p>
-        <input class="thumbnail form-control" type="text" name="product_name" id="product_name" autofocus style="width:100%" placeholder=" Product Name" required>
-<p>Description</p>
-<textarea class="thumbnail form-control" name="details" id="details" style="width:100%; height:100px" placeholder=" Descript your product..." required></textarea>
-<p>Add Image</p>
-<div style="background-color:#CCC">
-<input type="file" style="width:100%" name="picture" class="btn thumbnail" id="picture" >
-</div>
-</div>
-<div class="well">
-<h3>Pricing</h3>
-<p>Price</p>
-<div class="input-group">
-      <div class="input-group-addon">Rs</div>
-      <input type="text" class="form-control" name="price" id="price"  placeholder="0.00" required>
-    </div><br>
-<p>Compare at price</p>
-<div class="input-group">
-      <div class="input-group-addon">Rs</div>
-      <input type="text" name="c_price" id="c_price" class="form-control" placeholder="0.00">
-    </div>
-    </div>
-        </div>
-        <div class="col-lg-5">
-        <div class="well">
-<h3>Category</h3>
-<p>Product type</p>
-<input type="text" name="product_type" id="product_type" class="form-control" placeholder="Raw material">
-<br>
-<p>Quantity</p>
-<input type="text" name="brand" id="brand" class="form-control" placeholder="No of product or Kg">
-<br>
-<p>Tags</p>
-<input type="text" name="tags" id="tags" class="form-control" placeholder="Place of product">
-</div>
+<!-- Left Column / Headphones Image -->
+<div class="left-column">
+  <img data-image="black" src="images/black.png" alt="">
+  <img data-image="blue" src="images/blue.png" alt="">
+  <img data-image="red" class="active" src="images/red.png" alt="">
 </div>
 
-<div align="center">
-    <button type="submit" name="submit" id="submit" class="btn btn-default" style="width:100px; height:45px"> Cancel</button> <span>  &nbsp; </span>
-    <button type="submit" name="submit" id="submit" class="btn btn-success" style="width:150px; height:45px"> Add Product</button>
-    </div>
-        </form>
 
-	</div>
-</div></div></div>
+
+
+
+
+
 <?php include("web_admin/include/js.php"); ?>
 </body>
 </html>
